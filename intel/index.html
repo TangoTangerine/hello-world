@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Intel Extenstion v.1.0.0.</title>
+    <!-- lOAD CSS -->
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap" rel="stylesheet">
+
+</head>
+
+<!-- RESOURCE IMAGES -->
+
+<body>
+    <div id="mainDiv">
+        <h1 id="title">Galaxy Finder Intel Extenstion:</p>
+            <br>
+            <img src="media/img_astrahus.jpg">
+
+            <div id="allianceDiv">
+
+                <div class="subDiv">
+
+                    <h2 class="subHeader">Alliance / Corp present?</h2>
+                    <button class="btnYes" id="allbtnYes">Yes</button> <button class="btnNo" id="allbtnNo"> No</button>
+
+                    <div id="alliancehideInfoDiv">
+
+                        <h3 class="superSubHeader">Information:</h3>
+
+                        <span class="smallText" id="corpNameText">Corporation</span> <input class="smallInput"
+                            id="corpName">
+
+                        <span class="smallText">Alliance?</span> <input class="smallInput" id="allName">
+
+                        <span class="smallText">Zkillboard link?</span> <input class="smallInput" id="zkill">
+
+                        <h3 class="superSubHeader">Comment:</h3>
+
+                        <input class= "bigInput" id="allComment">
+
+
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="subDiv" id="structureDiv">
+
+                <h2 class="subHeader">Upwell Structures present?</h2>
+                <button class="btnYes" id="btnYes">Yes</button> <button class="btnNo" id="btnNo"> No</button>
+
+                <div id="hideInfoDiv">
+
+                    <h3 class="superSubHeader">Citadels:</h3>
+
+                    <span class="smallText" id="astraText">Astrahus?</span> <input class="smallInput" id="astraNum">
+
+                    <span class="smallText">Fortizar?</span> <input class="smallInput" id="fortNum">
+
+                    <span class="smallText">Keepstar?</span> <input  class="smallInput" id="keepNum">
+
+
+                    <h3 class="superSubHeader">Engineering Complexes:</h3>
+
+                    <span class="smallText">Raitaru?</span> <input class="smallInput" id="RaitNum">
+
+                    <span class="smallText">Azbel?</span> <input class="smallInput" id="AzbelNum">
+
+                    <span class="smallText">Sotiyo?</span> <input class="smallInput" id="SotiyoNum">
+
+                    <h3 class="superSubHeader">Refineries:</h3>
+                    <span class="smallText">Athanor?</span> <input class="smallInput" id="AthaNum">
+
+                    <span class="smallText">Tatara?</span> <input class="smallInput" id="TataNum">
+
+
+                </div>
+            </div>
+
+
+
+            <!-- <div class="subDiv" id="starbasesDiv"> -->
+                <!-- <h2 class="subHeader">Star Bases Present? (POS)</h2>
+                <button class="btnYes" id="starbtnYes">Yes</button> <button class="btnNo" id="starbtnNo">
+                    No</button> -->
+
+
+                <!-- <div id="StarbasesDivContent"> -->
+                    <!-- <h3 class="superSubHeader">StarBases:</h3> -->
+
+                    <!-- <span class="smallText" id="posNumText">Amount?</span> <input class="smallInput" id="posNum"> -->
+
+                    <!-- <span class="smallText">Amount Forcefielded?</span> <input class="smallInput" id="shieldNum"> -->
+
+                    <!-- <span class="smallText">Amount w/ Notiable entities?</span> <input class="smallInput" id="NotiableNum"> -->
+
+                    <!-- <h3 class="superSubHeader">Misc:</h3> -->
+                    <!-- <span class="smallText">Comments?</span> <input class="smallInput" id="starbaseCommentt"> -->
+
+                    <!-- <span class="smallText">Active Defenses?</span> <input class="smallInput" id="starbaseGuns"> -->
+
+                <!-- </div> -->
+            <!-- </div> -->
+
+            <div class="subDiv" id="outputDiv">
+                <button id="btnComp">Compile!</button> <button id="btnCopy">Copy!</button> 
+                <br>
+                <br>
+                <textarea id="output"></textarea>
+
+            </div>
+
+    </div>
+
+
+    <!-- LOAD JAVASCRIPT -->
+    <script src="main.js"></script>
+    <script src="compile.js"></script>
+
+
+
+</body>
+
+</html>
